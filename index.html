@@ -10,36 +10,52 @@
     <title>Four Seasons</title>
 </head>
 <body>
-    <section class="container main-content">
-        <section id="background">
-            <h1 class="text-center">The Four Seasons</h1>
-        
-            <!--<div class="">
-                <iframe id="spring" class="d-none" width="560" height="315" src="https://www.youtube.com/embed/QDy35Lq6fkw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe id="summer" class="d-none" width="560" height="315" src="https://www.youtube.com/embed/QDy35Lq6fkw?controls=0&amp;start=634" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe id="fall" class="d-none" width="560" height="315" src="https://www.youtube.com/embed/QDy35Lq6fkw?controls=0&amp;start=1201" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe id="winter" class="d-none" width="560" height="315" src="https://www.youtube.com/embed/QDy35Lq6fkw?controls=0&amp;start=1853" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div> -->
-        
-    
-
-
-        </section>
-        <section class="container get-season">
-            <div class="input fixed-bottom text-center" >
-                <label for="season">Enter a season:</label>
-                <input type="text" id="season" name="season">
-               <button class="btn btn-primary transparent grey-text" onclick="setAndPlay(document.getElementById('season').value.toUpperCase())" >
-                   <i class="fa fa-search"></i>
-               </button>    
+    <section class="container-fluid main">
+        <div class="col-12 top">
+            <div class="row text-center top">
+                <h1 class="">The Four Seasons</h1>
+                <p>by Vivaldi</p>
             </div>
-        </section>
-
-        <section class="trial">
-            
-        </section>
+        </div>
+        <div class="col-12 middle-top" >
+            <div class="row imagery" id="imagery"></div>
+          
+        </div>
+      
+        <div class="col-12 fixed-bottom bottom" >
+            <div class="row">
+                <div class="row controls">
+                    <audio controls class="d-none" autoplay id="audio" src="">
+                    </audio>
+                </div>
+                <form class="input text-center" >
+                    <label for="season">Enter a season:</label>
+                    <div class="">
+                        <input type="text" id="season" name="season">
+                        <button type="button" class="btn btn-primary transparent grey-text" onclick="setAndPlay   (document.getElementById('season').value.toUpperCase())" >
+                            <i class="fa fa-magnifying-glass"></i>
+                        </button>   
+                </div> 
+                </form>
+            </div>
+        </div>
     
     </section>
+    <a id="home-link" href="johnsmille.tech">johnsmillie.tech</a>
     <script src="/js/script.js"></script>
 </body>
 </html>
+  
+
+
+
+
+
+
+
+
+<!--<iframe id="spring"  class="" width="560" height="315" src="https://www.youtube.com/embed/QDy35Lq6fkw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="summer" class="d-none" width="560" height="315" src="https://www.youtube.com/embed/QDy35Lq6fkw?controls=0&amp;start=634" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="fall" class="d-none" width="560" height="315" src="https://www.youtube.com/embed/QDy35Lq6fkw?controls=0&amp;start=1201" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe id="winter" class="d-none" width="560" height="315" src="https://www.youtube.com/embed/QDy35Lq6fkw?controls=0&amp;start=1853" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                -->
