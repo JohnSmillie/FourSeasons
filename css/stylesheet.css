@@ -2,11 +2,34 @@ body {
     font-family: 'Cinzel Decorative', cursive;
     background-color: rgb(247, 228, 200);
     box-sizing: border-box ;
+    background-image: url("../img/vivaldi.jpeg");
+    background-repeat: no-repeat;
+    background-position: 43% 0%;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 16px;
 }
 
 h1{
-    font-size: 400%;
+    font-size: 5em;
     font-weight: bold;
+    color: rgb(222, 3, 3);
+}
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(42, 106, 255);
+    border-radius: 3px;
+    border: none;
+    padding: 4px 4px;
+}
+
+.main p{
+    color: rgb(222, 3, 3);
+    font-size: 3em;
+}
+.headline{
+    margin-top: 65px;
+    display: inline;
 }
 
 label{
@@ -20,76 +43,62 @@ input{
     max-width: 50%;
     margin: auto;
  }
- .top{
-   padding-top: 20px;
- }
- .middle-top{
-    height: 75vh;
-    
-}
-.imagery{
-    height: 100%;
-    background-image: url("../img/vivaldi.png");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-attachment: fixed;
-    background-size: 20%;
-    
-    
-}
+
 .bottom {
-    border: solid;
+    
     background-color: black;
     color: white;
     padding: 10px;
 
 }
-
+.page-info, .page-info p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1em;
+}
+.page-info h5 {
+    text-decoration: underline;
+}
+#page-info{
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:absolute;
+    top: 300px;
+    top:60%;
+    right: 10px;
+    color: rgb(222, 3, 3);
+    background-color: rgba(255,255,255, .75);
+    border-radius: 15px;
+       
+}
 #home-link{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position:absolute;
-    top: 3px;
-    right: 10px;
+    top: 5px;
+    right: 15px;
+    color: whitesmoke;
+    font-size: 14px;
 }
 
-@media (max-width: 1200px){
-    .imagery{
-        background-size: 25%;
-    }
 
-}
-@media (max-width: 750px){
-    .imagery{
-        background-size: 40%;
-    }
+
+
+
+@media screen and (max-width: 768px) {
     label{
-        font-size: 1.75em;
+       font-size: 1.5em; 
     }
     h1{
-        font-size: 300%;
+        font-size: 3em;
     }
-    label{
-        font-size: 1.5em;
+    .main p{
+        font-size: 2em;
+    }
+    
+    
+}
+@media  screen and (max-height: 560px) {
+    #page-info{
+        top: 200px;
     }
 }
-
-@media (max-width: 475px){
-    .imagery{
-        background-size: 50%;
-    }
-   
-
-    @media (max-width: 436px){
-        
-    }
-}
-@media (min-width: 1050px){
-    .imagery{
-        height: 80%;
-        background-position: 50% 30%;
-    }
-}
-
-
-
-
