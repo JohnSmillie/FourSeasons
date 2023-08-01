@@ -1,7 +1,7 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home2/johnsmi1/the-four-seasons
+ - export DEPLOYPATH=/home2/johnsmi1/public_html/the-four-seasons
  - /bin/cp index.html $DEPLOYPATH
  - /bin/cp -R img $DEPLOYPATH
  - /bin/cp -R css $DEPLOYPATH
